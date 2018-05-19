@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">CityPlus</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="messages">Сообщения</string>
+    <string name="city_online">City-online</string>
+    <string name="friends_">Друзья</string>
+    <string name="people_search">Поиск людей</string>
+    <string name="create_talk">Создать беседу</string>
+    <string name="settings_">Настройки</string>
+    <string name="profile">Профиль</string>
+    <string name="chats">Чаты</string>
+    <string name="for_login">Вход в CITY+</string>
+    <string name="your_password">Ваш пароль</string>
+    <string name="forgot_password"><u>Забыли пароль ?</u></string>
+    <string name="enter">Воити</string>
+    <string name="yet_no_account">А У ВАС ЕЩЕ НЕТ АККАУНТА ?</string>
+    <string name="registration">Регистрация</string>
+    <string name="today">Сегодня</string>
+    <string name="phone_registration">Номер телефона</string>
+    <string name="your_password_again">Ваш пароль еше раз</string>
+    <string name="your_data_reg_1">В поле ниже введите Ваш номер телефона. На него прийдет код активации:</string>
+    <string name="your_phone_login">Номер телефона</string>
+    <string name="registration1">Зарегистрироваться</string>
+    <string name="enter_code_reg_2">Введите код</string>
+    <string name="registration2">Подтвердить</string>
+    <string name="enter_password_reg_3">Придумате пароль</string>
+    <string name="enter_password_registration_3">Пароль</string>
+    <string name="enter_2_password_registration_3">Повторите пароль</string>
+    <string name="confirm_reg_3">Подтвердить</string>
+    <string name="congrats_reg_4">Поздравляем !!!</string>
+    <string name="youre_signed_reg_4">Вы успешно зарегистрированы в нашем сервисе!</string>
+    <string name="registration4">Перейти к сервису</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot_ask">Восстановить</string>
+    <string name="sms_code">код из SMS</string>
+    <string name="sex">пол</string>
+    <string name="man">мужской</string>
+    <string name="woman">женский</string>
+    <string name="privacy">Доступ</string>
+    <string name="open">открытый</string>
+    <string name="close">закрытый</string>
+    <string name="name">Имя</string>
+    <string name="second_name">фамилия</string>
+    <string name="your_name">Введите ваше имя</string>
+    <string name="your_surname">Введите вашу фамилию</string>
+    <string name="your_birthday">День рождения</string>
+    <string name="about_myself">Напишите немного о себе</string>
+    <string name="interests">Интересы:</string>
+    <string name="make_private" >Сделать приватным</string>
+    <string name="add_photo">Добавить фото</string>
+    <string name="about_me">О себе</string>
+    <string name="status">Статус</string>
+    <string name="date_of_birth">Дата рождения:</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="request_permission">Вы позволяете доступ к камере?</string>
+    <string name="request_read_permission">Вы позволяете доступ чтения диска?</string>
+    <string name="request_write_permission">Вы позволяете доступ к диску?</string>
+    <string name="log_out">Выйти из аккаунта</string>
+</resources>

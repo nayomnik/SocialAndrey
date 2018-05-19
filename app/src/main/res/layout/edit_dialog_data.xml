@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="300dp"
+    android:background="@drawable/shape_for_dialog"
+    android:layout_height="200dp">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_weight="10"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="100"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title_of_edit"
+            android:layout_width="match_parent"
+            android:textColor="#999"
+            android:layout_height="0dp"
+            android:layout_weight="100"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="40"
+            android:inputType="textMultiLine"
+            android:maxLines="4"
+            android:minLines="1"
+            android:gravity="center"
+            android:background="#ddd" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="100"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="20"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="0dp"
+                android:layout_weight="420"
+                android:text="@string/save"
+                android:textColor="#fff"
+                android:background="@drawable/backg_for_sea_button"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="20"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_weight="420"
+                android:text="@string/cancel"
+                android:textColor="#fff"
+                android:background="@drawable/backg_for_red_button"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="20"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_weight="10"
+        android:layout_height="match_parent" />
+</LinearLayout>

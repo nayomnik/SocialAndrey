@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/messages"
+                android:icon="@drawable/ic_envelope"
+                android:title="@string/messages" />
+            <item
+                android:id="@+id/chats"
+                android:icon="@drawable/ic_chat"
+                android:title="@string/chats" />
+            <item
+                android:id="@+id/city_online"
+                android:icon="@drawable/forma1"
+
+                android:title="@string/city_online" />
+            <item
+                android:id="@+id/friends_"
+                android:icon="@drawable/ic_friends"
+                android:title="@string/friends_" />
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/ic_msn_user_profile"
+                android:title="@string/profile" />
+            <item
+                android:id="@+id/settings_"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings_" />
+            <item
+                android:id="@+id/people_search"
+                android:icon="@drawable/ic_searching_interface_symbol_of_magnifying_glass"
+                android:title="@string/people_search" />
+            <item
+                android:id="@+id/create_talk"
+                android:icon="@drawable/ic_cloud_with_plus_sign"
+                android:title="@string/create_talk" />
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/ic_cloud_with_plus_sign"
+                android:title="@string/log_out" />
+        </group>
+    <!---->
+
+
+</menu>

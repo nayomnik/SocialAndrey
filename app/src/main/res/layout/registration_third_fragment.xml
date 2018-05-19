@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/login_panel"
+    android:contentDescription="panel for buttons and edittexts">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_weight="100"
+        android:layout_height="match_parent"
+        android:contentDescription="panel side padding" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1400"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:contentDescription="actual layout  for buttons and edittexts"
+        android:weightSum="305">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60"
+            android:text="@string/enter_password_reg_3"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:id="@+id/panel_title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15" />
+
+        <EditText
+            android:id="@+id/password_1_registration_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:hint="@string/enter_password_registration_3"
+            android:layout_weight="60"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:background="@drawable/edit_text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" />
+
+        <EditText
+            android:id="@+id/password_2_registration_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:hint="@string/enter_2_password_registration_3"
+            android:background="@drawable/edit_text" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="40"
+            android:orientation="horizontal"
+            android:contentDescription="registration button layout">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1000"
+                android:layout_height="2dp" />
+
+            <Button
+                android:id="@+id/register_3_button"
+                android:layout_width="0dp"
+                android:layout_weight="3000"
+                android:layout_height="match_parent"
+                android:textColor="#fff"
+                android:text="@string/confirm_reg_3"
+                android:onClick="onClick"
+                android:background="@drawable/button_red" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1000"
+                android:layout_height="2dp" />
+        </LinearLayout><!-- -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_weight="100"
+        android:layout_height="match_parent"
+        android:contentDescription="panel side padding" />
+</LinearLayout>

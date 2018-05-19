@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+       <!-- <item name="colorPrimaryDark">#4a9994</item>-->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+        <item name="actionBarSize">68dip</item>
+        <item name="android:actionBarSize">68dip</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="appAnchorTheme" parent="AppTheme.NoActionBar">
+        <!--<item name="colorPrimaryDark">#4a9994</item>-->
+    </style>
+
+    <style name="splashScreenTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_backg</item>
+        <item name="colorPrimaryDark">#4a9994</item>
+    </style>
+    <style name="CustomDialog" parent="Theme.AppCompat.Light.Dialog">
+
+        <!--<item name="colorPrimaryDark">#4a9994</item>-->
+        <item name="android:popupBackground">@drawable/side_nav_bar</item>
+        </style>
+        -->
+</resources>

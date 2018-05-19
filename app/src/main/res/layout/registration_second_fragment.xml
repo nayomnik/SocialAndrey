@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/login_panel"
+    android:contentDescription="panel for buttons and edittexts">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_weight="100"
+        android:layout_height="match_parent"
+        android:contentDescription="panel side padding" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1400"
+        android:contentDescription="actual layout  for buttons and edittexts"
+        android:orientation="vertical"
+        android:weightSum="305">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25" />
+
+        <TextView
+            android:id="@+id/panel_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60"
+            android:gravity="center"
+            android:text="@string/enter_code_reg_2"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:contentDescription="MIDDLE" />
+
+        <EditText
+            android:id="@+id/code_registration2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60"
+            android:background="@drawable/edit_text"
+            android:gravity="center"
+            android:inputType="text" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:contentDescription="MIDDLE" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="45"
+            android:contentDescription="registration button layout"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_weight="500" />
+
+            <Button
+                android:id="@+id/register_2_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4000"
+                android:background="@drawable/button_red"
+                android:onClick="onClick"
+                android:text="@string/registration2"
+                android:textColor="#fff" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_weight="500" />
+        </LinearLayout><!-- -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="35"
+            android:contentDescription="MIDDLE" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_weight="100"
+        android:layout_height="match_parent"
+        android:contentDescription="panel side padding" />
+</LinearLayout>

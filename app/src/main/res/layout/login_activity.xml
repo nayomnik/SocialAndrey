@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="500">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/builds" />
+
+        <ImageView
+            android:id="@+id/cityplus"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/cityplus" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="950"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="300" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="100"
+                    android:orientation="horizontal"
+                    android:contentDescription="layout for wether and date">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_weight="300"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1850"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:contentDescription="data plus segodnya">
+
+                        <TextView
+                            android:id="@+id/sreda"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="50"
+                            android:textSize="24sp"
+                            android:textColor="#fff"
+                            android:gravity="center_vertical"
+                            android:text="@string/today" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="50"
+                            android:textColor="#fff"
+                            android:gravity="center_vertical"
+                            android:text="@string/today" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="900"
+                        android:layout_height="match_parent"
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:textSize="24sp"
+                        android:background="@drawable/backg8"
+                        android:text="+38" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_weight="50"
+                        android:background="#fff"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="900"
+                        android:layout_height="match_parent"
+                        android:textColor="#aaa"
+                        android:gravity="center"
+                        android:textSize="24sp"
+                        android:background="@drawable/backg3"
+                        android:text="-33" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="50"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="500"
+        android:orientation="horizontal"
+        android:contentDescription="layout for panel layout">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="100"
+            android:layout_height="match_parent"
+            android:contentDescription="layout top padding" />
+
+        <FrameLayout
+            android:id="@+id/fragment_layout"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1400"
+            android:contentDescription="Fragment place" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="100"
+            android:layout_height="match_parent"
+            android:contentDescription="layout bottom padding" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="70" />
+    <!--   <ImageView
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:src="@drawable/builds"/>
+-->
+    <!-- <ImageView
+         android:id="@+id/cityplus"
+         android:layout_width="200dp"
+         android:layout_height="200dp"
+         android:layout_centerInParent="true"
+         android:src="@drawable/cityplus"/>
+     <TextView
+         android:id="@+id/splashscreentxt"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/cityplus"
+         android:text="Добро \n пожаловать !"
+         android:gravity="center"
+         android:textColor="#fff"
+         android:textSize="37sp"
+         android:layout_gravity="center"/>-->
+
+</LinearLayout>

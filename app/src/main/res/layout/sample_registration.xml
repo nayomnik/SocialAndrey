@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/login_panel"
+    android:contentDescription="panel for buttons and edittexts">
+
+    <!--
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="100"
+            android:layout_height="match_parent"
+            android:contentDescription="panel side padding" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1400"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:contentDescription="actual layout  for buttonsedittexts"
+            android:weightSum="305">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"
+                android:text="@string/your_data_reg_1"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:id="@+id/panel_title" />
+
+            <EditText
+                android:id="@+id/phone_registration"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:hint="@string/phone_registration"
+                android:layout_weight="40"
+                android:inputType="phone"
+                android:gravity="center"
+                android:background="@drawable/edit_text" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10" />
+            <EditText
+                android:id="@+id/your_login"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:gravity="center"
+                android:inputType="text"
+                android:hint="@string/desired_login"
+                android:background="@drawable/edit_text" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10" />
+            <EditText
+                android:id="@+id/password_1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:hint="@string/your_password"
+                android:background="@drawable/edit_text" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:contentDescription="MIDDLE" />
+
+            <EditText
+                android:id="@+id/password_2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:hint="@string/your_password_again"
+                android:background="@drawable/edit_text" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="45"
+                android:orientation="horizontal"
+                android:contentDescription="registration button layout">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="1000"
+                    android:layout_height="2dp" />
+
+                <Button
+                    android:id="@+id/register_button"
+                    android:layout_width="0dp"
+                    android:layout_weight="3000"
+                    android:layout_height="match_parent"
+                    android:textColor="#fff"
+                    android:text="@string/registration"
+                    android:onClick="onClick"
+                    android:background="@drawable/button_red" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="1000"
+                    android:layout_height="2dp" />
+            </LinearLayout>&lt;!&ndash; &ndash;&gt;
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="100"
+            android:layout_height="match_parent"
+            android:contentDescription="panel side padding" />-->
+</LinearLayout>
